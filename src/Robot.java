@@ -22,7 +22,7 @@ public class Robot {
         System.out.println("Second constructor called after first one");
     }
 
-    public static void main(String[] argv) {
+    public static void main(String[] args) {
         Robot sam = new Robot();
         sam.talk();
         sam.talk("John");

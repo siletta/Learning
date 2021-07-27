@@ -29,7 +29,7 @@ public class Smallest {
         System.out.println("The smallest value is " + toOrder[0]);
     }
 
-    public static void main(String[] argv) {
+    public static void main(String[] args) {
         Smallest smallest = new Smallest(35, 2, 456);
         smallest.calculateTheSmaller();
     }

@@ -22,7 +22,7 @@ public class Thing {
        //System.out.println(name) --> DONT WORK - Static method can't access to NON static data
     }
 
-    public static void main (String[] argv) {
+    public static void main (String[] args) {
 
         System.out.println("Before creating objects count is: " + Thing.count);
 

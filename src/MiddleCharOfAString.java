@@ -21,17 +21,15 @@ public class MiddleCharOfAString {
     }
 
     public void showTheMiddleOfAString() {
-        char[] chars = inputString.toCharArray();
         int middle = inputString.length() / 2 ;
         if ( inputString.length() % 2 == 0) {
-            System.out.print(chars[middle - 1]);
-            System.out.print(chars[middle]);
+            System.out.println(inputString.substring(middle-1, middle+1));
         } else {
-            System.out.println(chars[middle]);
+            System.out.println(inputString.charAt(middle));
         }
     }
 
-    public static void main(String[] argv) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.next();
         MiddleCharOfAString middleOfAWord = new MiddleCharOfAString(word);
